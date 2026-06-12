@@ -48,7 +48,7 @@ export default function ContactSection() {
               <span className="tag-icon">&#x1F41F;</span>
               <div className="tag-text">
                 <strong>Fresh Every Day</strong>
-                <span>Traditional fishing community — Andhra &amp; Telangana</span>
+                <span>Traditional fishing community — Shipping All Over India</span>
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ export default function Footer() {
               <div className="footer-name">PJ Seafoods</div>
             </div>
             <div className="footer-tagline">&quot;A people&apos;s journey of fresh flavor&quot;</div>
-            <div className="footer-delivery-badge"><span>&#128666;</span><span>Delivery Across Andhra &amp; Telangana</span></div>
+            <div className="footer-delivery-badge"><span>&#128666;</span><span>Delivering to Every Corner of India</span></div>
             <p style={{ fontSize:"0.78rem", color:"#90E0EF", lineHeight:1.7, maxWidth:"300px", marginTop:"0.5rem" }}>
               PJ stands for People&apos;s Journey. From coastal fishing communities to your family table — fresh seafood with love.
             </p>
@@ -34,8 +34,7 @@ export default function Footer() {
               <li style={{ color:"#90E0EF", fontSize:"0.8rem" }}>&#128336; Open 6am – 9pm, All Days</li>
             </ul>
             <div style={{ marginTop:"1.2rem", padding:"0.75rem 1rem", background:"rgba(0,180,216,0.15)", border:"1px solid rgba(0,180,216,0.35)", borderRadius:"10px", fontSize:"0.76rem", color:"#ADE8F4", lineHeight:1.6 }}>
-              &#127758; Hyderabad &middot; Vijayawada &middot; Vizag<br />
-              <span style={{ color:"#90E0EF" }}>Tirupati &middot; Guntur &middot; All of Andhra &amp; Telangana</span>
+              <span style={{ color:"#90E0EF" }}>Vizag: 1 Day Delivery &middot; Rest of India: Order 1 day before</span>
             </div>
           </div>
 

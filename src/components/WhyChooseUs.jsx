@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import fishermenImg from "../assets/fishermen.png";
@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const features = [
   { icon: String.fromCodePoint(0x1F30A), title: "Unmatched Freshness",  desc: "Sourced daily by traditional fishing communities. From sea to plate in under 12 hours." },
   { icon: String.fromCodePoint(0x2B50),  title: "Quality & Variety",    desc: "Premium dry fishes and fresh live varieties. Hand-selected for quality and taste." },
-  { icon: String.fromCodePoint(0x1F69A), title: "Deep Local Delivery",  desc: "Reaching every corner of Andhra & Telangana. Hyderabad, Vijayawada, Vizag & beyond." },
+  { icon: String.fromCodePoint(0x1F69A), title: "Nationwide Delivery",  desc: "Reaching any corner of India. Vizag: 1 Day Delivery. Other locations: Order 1 day in advance." },
 ];
 
 export default function WhyChooseUs() {

@@ -49,7 +49,7 @@ export default function Header() {
           <span>|</span>
           <span>Personal: <a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer">@sailor_man_67</a></span>
           <span>|</span>
-          <span>Delivery Across Andhra &amp; Telangana</span>
+          <span>Vizag: 1 Day Delivery | Rest of India: Order 1 Day Prior</span>
         </div>
         <div className="header-inner">
           <a className="logo-wrap" href="#home" onClick={(e) => { e.preventDefault(); go("#home"); }}>

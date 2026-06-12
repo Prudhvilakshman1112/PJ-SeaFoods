@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import heroBg from "../assets/hero_bg.png";
@@ -47,15 +47,18 @@ export default function HeroSection() {
 
         <p className="hero-slogan" ref={sloganRef}>
           A people&apos;s journey of fresh flavor — connecting traditional fishing
-          communities with your dining table across Andhra &amp; Telangana.
+          communities with your dining table across India.
         </p>
 
         <div className="hero-delivery-badge" ref={badgeRef}>
-          <span>&#128666; Delivering Across Andhra &amp; Telangana</span>
+          <span>&#128666; Vizag: 1 Day Delivery | All India: Order 1 Day Prior</span>
         </div>
 
         <div className="hero-actions" ref={actionsRef}>
-          <a href="#fresh-catch" className="btn-primary" onClick={(e) => { e.preventDefault(); document.querySelector("#fresh-catch")?.scrollIntoView({ behavior: "smooth" }); }}>
+          <a href="#tuna" className="btn-primary" onClick={(e) => { e.preventDefault(); document.querySelector('#tuna')?.scrollIntoView({behavior:'smooth'}); }}>
+            <span>Explore Tuna Specials</span>
+          </a>
+          <a href="#fresh-catch" className="btn-outline" onClick={(e) => { e.preventDefault(); document.querySelector('#fresh-catch')?.scrollIntoView({behavior:'smooth'}); }}>
             <span>Shop Fresh Catch</span>
           </a>
           <a href="tel:9985476544" className="btn-gold">
