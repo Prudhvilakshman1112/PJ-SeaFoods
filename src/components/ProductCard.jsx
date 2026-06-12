@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import BubbleEffect from "./BubbleEffect";
 
 export default function ProductCard({ name, desc, price, image, emoji }) {
@@ -30,7 +30,6 @@ export default function ProductCard({ name, desc, price, image, emoji }) {
       <div className="card-body">
         <div className="card-name">{name}</div>
         <div className="card-desc">{desc}</div>
-        <div className="card-price">{price}</div>
         <div className="card-actions">
           <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="btn-order">
             <span>Order Now</span>

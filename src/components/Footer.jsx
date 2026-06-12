@@ -1,4 +1,4 @@
-﻿export default function Footer() {
+export default function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="footer">
@@ -22,17 +22,6 @@
             <p style={{ fontSize:"0.78rem", color:"#90E0EF", lineHeight:1.7, maxWidth:"300px", marginTop:"0.5rem" }}>
               PJ stands for People&apos;s Journey. From coastal fishing communities to your family table — fresh seafood with love.
             </p>
-          </div>
-
-          <div>
-            <div className="footer-col-title">Quick Links</div>
-            <ul className="footer-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#fresh-catch">Fresh Catch</a></li>
-              <li><a href="#pongal">Pongal Specials</a></li>
-              <li><a href="#pongal">Combos</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-            </ul>
           </div>
 
           <div>

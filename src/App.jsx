@@ -6,6 +6,7 @@ import LoadingScreen from './components/LoadingScreen';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import FreshCatch from './components/FreshCatch';
+import TunaSection from './components/TunaSection';
 import PongalSpecials from './components/PongalSpecials';
 import WhyChooseUs from './components/WhyChooseUs';
 import ContactSection from './components/ContactSection';
@@ -57,6 +58,7 @@ export default function App() {
         <main>
           <HeroSection />
           <FreshCatch />
+          <TunaSection />
           <PongalSpecials />
           <WhyChooseUs />
           <ContactSection />
