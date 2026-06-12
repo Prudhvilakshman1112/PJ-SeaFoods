@@ -140,7 +140,7 @@ export default function TunaSection() {
               </div>
             </div>
             <a
-              href="https://wa.me/919985476544"
+              href="https://wa.me/919985476544?text=Hi PJ Seafoods, I would like to order: Fresh Premium Tuna"
               target="_blank"
               rel="noreferrer"
               className="btn-tuna"
@@ -172,7 +172,7 @@ export default function TunaSection() {
             <div className="tuna-cta-sub">Call or WhatsApp us — we deliver tuna fresh to your doorstep daily.</div>
           </div>
           <div className="tuna-cta-actions">
-            <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="btn-tuna">
+            <a href="https://wa.me/919985476544?text=Hi PJ Seafoods, I would like to order: Fresh Premium Tuna" target="_blank" rel="noreferrer" className="btn-tuna">
               📲 WhatsApp Order
             </a>
             <a href="tel:9985476544" className="btn-tuna-outline">

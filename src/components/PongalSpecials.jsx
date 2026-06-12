@@ -63,7 +63,7 @@ export default function HarvestSpecials() {
               <li className="combo-item-tag"><span>{TROPI}</span><span>Dry Fish 250g</span></li>
               <li className="combo-item-tag"><span>{FISH}</span><span>Tuna 500g</span></li>
             </ul>
-            <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="btn-gold" style={{display:"flex",justifyContent:"center"}}>
+            <a href="https://wa.me/919985476544?text=Hi PJ Seafoods, I would like to order the Ocean Harvest Bundle" target="_blank" rel="noreferrer" className="btn-gold" style={{display:"flex",justifyContent:"center"}}>
               <span>Order This Bundle</span>
             </a>
           </div>
