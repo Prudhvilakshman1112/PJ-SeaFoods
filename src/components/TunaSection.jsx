@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import imgTunaHero    from "../assets/tuna fish for special section.jpg";
+import imgTunaMarket  from "../assets/Tuna (Sura).jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -102,7 +104,7 @@ export default function TunaSection() {
         <div className="tuna-hero-strip" ref={heroRef}>
           <div className="tuna-hero-img-wrap">
             <img
-              src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=900&q=85"
+              src={imgTunaHero}
               alt="Fresh premium tuna"
               loading="lazy"
             />

@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import imgBundle from "../assets/Prawns.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,7 +52,7 @@ export default function HarvestSpecials() {
           <div className="combo-card">
             <div className="combo-badge">Best Seller</div>
             <div className="combo-img">
-              <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&q=80" alt="Seafood feast" />
+              <img src={imgBundle} alt="Seafood feast" />
             </div>
             <span className="combo-icon">{WAVE}</span>
             <div className="combo-name">Ocean Harvest Bundle</div>

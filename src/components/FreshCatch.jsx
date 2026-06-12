@@ -3,14 +3,20 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ProductCard from "./ProductCard";
 
+import imgPomfret  from "../assets/Silver Pomfret.jpg";
+import imgPrawns   from "../assets/Prawns.jpg";
+import imgCrab     from "../assets/Mud Crab.jpg";
+import imgTuna     from "../assets/Tuna (Sura).jpg";
+import imgDryFish  from "../assets/Dry Fish.jpg";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const products = [
-  { id:1, name:"Silver Pomfret",  desc:"Delicate, melt-in-mouth white fish. Ideal for fry, curry, or steaming. Bay of Bengal fresh.",      price:"From Rs. 350 per kg", image:"https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600&q=80" },
-  { id:2, name:"Prawns",          desc:"Juicy, fresh prawns — perfect for biryani, fry, or masala. A coastal favorite from Andhra shores.", price:"From Rs. 480 per kg", image:"https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=600&q=80" },
-  { id:3, name:"Mud Crab",        desc:"Thick-clawed mud crabs, wild-caught. Rich in flavor for curry, pepper masala, or steamed.",          price:"From Rs. 600 per kg", image:"https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600&q=80" },
-  { id:4, name:"Tuna (Sura)",     desc:"Bold, meaty tuna. Perfect for traditional Andhra-style dry fry and spicy curries.",                  price:"From Rs. 280 per kg", image:"https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=600&q=80" },
-  { id:5, name:"Dry Fish",        desc:"Sun-dried coastal fish — a traditional Andhra delicacy. Deep flavor, premium quality.",               price:"From Rs. 250 per kg", image:"https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80" },
+  { id:1, name:"Silver Pomfret",  desc:"Delicate, melt-in-mouth white fish. Ideal for fry, curry, or steaming. Bay of Bengal fresh.",      image: imgPomfret  },
+  { id:2, name:"Prawns",          desc:"Juicy, fresh prawns — perfect for biryani, fry, or masala. A coastal favorite from Andhra shores.", image: imgPrawns   },
+  { id:3, name:"Mud Crab",        desc:"Thick-clawed mud crabs, wild-caught. Rich in flavor for curry, pepper masala, or steamed.",          image: imgCrab     },
+  { id:4, name:"Tuna (Sura)",     desc:"Bold, meaty tuna. Perfect for traditional Andhra-style dry fry and spicy curries.",                  image: imgTuna     },
+  { id:5, name:"Dry Fish",        desc:"Sun-dried coastal fish — a traditional Andhra delicacy. Deep flavor, premium quality.",               image: imgDryFish  },
 ];
 
 export default function FreshCatch() {
