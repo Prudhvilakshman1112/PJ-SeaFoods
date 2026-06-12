@@ -31,7 +31,7 @@ export default function Footer() {
               <li><a href="https://instagram.com/pj_sea_foods" target="_blank" rel="noreferrer">&#128247; @pj_sea_foods</a></li>
               <li><a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer">&#128247; @sailor_man_67</a></li>
               <li><a href="https://wa.me/919985476544" target="_blank" rel="noreferrer">&#128172; WhatsApp Us</a></li>
-              <li style={{ color:"#90E0EF", fontSize:"0.8rem" }}>&#128336; Open 6am – 9pm, All Days</li>
+              <li style={{ color:"#90E0EF", fontSize:"0.8rem" }}>&#128336; We are open 24 hrs</li>
             </ul>
             <div style={{ marginTop:"1.2rem", padding:"0.75rem 1rem", background:"rgba(0,180,216,0.15)", border:"1px solid rgba(0,180,216,0.35)", borderRadius:"10px", fontSize:"0.76rem", color:"#ADE8F4", lineHeight:1.6 }}>
               <span style={{ color:"#90E0EF" }}>Vizag: 1 Day Delivery &middot; Rest of India: Order 1 day before</span>

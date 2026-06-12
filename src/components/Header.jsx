@@ -42,15 +42,7 @@ export default function Header() {
     <>
       {/* ── HEADER BAR ── */}
       <header ref={headerRef} className={"header" + (scrolled ? " scrolled" : "")}>
-        <div className="top-banner">
-          <span>Call Now: <a href="tel:9985476544">9985476544</a></span>
-          <span>|</span>
-          <span>Instagram: <a href="https://instagram.com/pj_sea_foods" target="_blank" rel="noreferrer">@pj_sea_foods</a></span>
-          <span>|</span>
-          <span>Personal: <a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer">@sailor_man_67</a></span>
-          <span>|</span>
-          <span>Vizag: 1 Day Delivery | Rest of India: Order 1 Day Prior</span>
-        </div>
+
         <div className="header-inner">
           <a className="logo-wrap" href="#home" onClick={(e) => { e.preventDefault(); go("#home"); }}>
             <div className="logo-icon">&#9875;</div>

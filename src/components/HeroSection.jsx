@@ -55,10 +55,7 @@ export default function HeroSection() {
         </div>
 
         <div className="hero-actions" ref={actionsRef}>
-          <a href="#tuna" className="btn-primary" onClick={(e) => { e.preventDefault(); document.querySelector('#tuna')?.scrollIntoView({behavior:'smooth'}); }}>
-            <span>Explore Tuna Specials</span>
-          </a>
-          <a href="#fresh-catch" className="btn-outline" onClick={(e) => { e.preventDefault(); document.querySelector('#fresh-catch')?.scrollIntoView({behavior:'smooth'}); }}>
+          <a href="#fresh-catch" className="btn-primary" onClick={(e) => { e.preventDefault(); document.querySelector('#fresh-catch')?.scrollIntoView({behavior:'smooth'}); }}>
             <span>Shop Fresh Catch</span>
           </a>
           <a href="tel:9985476544" className="btn-gold">
