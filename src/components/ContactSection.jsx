@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import fishingWomanImg from "../assets/fishing_woman.png";
@@ -93,6 +93,9 @@ export default function ContactSection() {
               <div className="social-links">
                 <a href="https://instagram.com/pj_sea_foods" target="_blank" rel="noreferrer" className="social-link instagram">
                   <span>&#128247;</span><span>@pj_sea_foods</span>
+                </a>
+                <a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer" className="social-link instagram">
+                  <span>&#128247;</span><span>@sailor_man_67</span>
                 </a>
                 <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="social-link whatsapp">
                   <span>&#128172;</span><span>WhatsApp Us</span>

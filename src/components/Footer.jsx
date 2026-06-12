@@ -29,6 +29,7 @@ export default function Footer() {
             <ul className="footer-links">
               <li><a href="tel:9985476544">&#128222; 9985476544</a></li>
               <li><a href="https://instagram.com/pj_sea_foods" target="_blank" rel="noreferrer">&#128247; @pj_sea_foods</a></li>
+              <li><a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer">&#128247; @sailor_man_67</a></li>
               <li><a href="https://wa.me/919985476544" target="_blank" rel="noreferrer">&#128172; WhatsApp Us</a></li>
               <li style={{ color:"#90E0EF", fontSize:"0.8rem" }}>&#128336; Open 6am – 9pm, All Days</li>
             </ul>

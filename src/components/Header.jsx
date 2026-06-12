@@ -47,6 +47,8 @@ export default function Header() {
           <span>|</span>
           <span>Instagram: <a href="https://instagram.com/pj_sea_foods" target="_blank" rel="noreferrer">@pj_sea_foods</a></span>
           <span>|</span>
+          <span>Personal: <a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer">@sailor_man_67</a></span>
+          <span>|</span>
           <span>Delivery Across Andhra &amp; Telangana</span>
         </div>
         <div className="header-inner">
@@ -108,6 +110,8 @@ export default function Header() {
             <div className="mobile-menu-footer">
               <a href="tel:9985476544" className="mobile-contact-chip">📞 9985476544</a>
               <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="mobile-contact-chip whatsapp">💬 WhatsApp</a>
+              <a href="https://instagram.com/pj_sea_foods" target="_blank" rel="noreferrer" className="mobile-contact-chip">📸 @pj_sea_foods</a>
+              <a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer" className="mobile-contact-chip">📸 @sailor_man_67</a>
             </div>
           </div>
         </div>

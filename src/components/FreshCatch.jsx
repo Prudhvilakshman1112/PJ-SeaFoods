@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ProductCard from "./ProductCard";
@@ -6,12 +6,11 @@ import ProductCard from "./ProductCard";
 gsap.registerPlugin(ScrollTrigger);
 
 const products = [
-  { id:1, name:"Silver Pomfret", desc:"Delicate, melt-in-mouth white fish. Ideal for fry, curry, or steaming. Bay of Bengal fresh.", price:"From Rs. 350 per kg", image:"https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600&q=80" },
-  { id:2, name:"Tiger Prawns",   desc:"Juicy tiger prawns - perfect for biryani, fry, or masala. A coastal favorite from Andhra shores.", price:"From Rs. 480 per kg", image:"https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=600&q=80" },
-  { id:3, name:"Mud Crab",       desc:"Thick-clawed mud crabs, wild-caught. Rich in flavor for curry, pepper masala, or steamed.", price:"From Rs. 600 per kg", image:"https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600&q=80" },
-  { id:4, name:"Tuna (Sura)",   desc:"Bold, meaty tuna. Perfect for traditional Andhra-style dry fry and spicy curries.", price:"From Rs. 280 per kg", image:"https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=600&q=80" },
-  { id:5, name:"Pandugappa (Dry Fish)", desc:"Sun-dried coastal fish — a traditional Andhra delicacy. Deep flavor, premium quality.", price:"From Rs. 250 per kg", image:"https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80" },
-  { id:6, name:"Lady Fish (Bochu)", desc:"Andhra favorite — the slender, tender Lady Fish. Best for spicy roast or masala fry.", price:"From Rs. 220 per kg", image:"https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=600&q=80" },
+  { id:1, name:"Silver Pomfret",  desc:"Delicate, melt-in-mouth white fish. Ideal for fry, curry, or steaming. Bay of Bengal fresh.",      price:"From Rs. 350 per kg", image:"https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600&q=80" },
+  { id:2, name:"Prawns",          desc:"Juicy, fresh prawns — perfect for biryani, fry, or masala. A coastal favorite from Andhra shores.", price:"From Rs. 480 per kg", image:"https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=600&q=80" },
+  { id:3, name:"Mud Crab",        desc:"Thick-clawed mud crabs, wild-caught. Rich in flavor for curry, pepper masala, or steamed.",          price:"From Rs. 600 per kg", image:"https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600&q=80" },
+  { id:4, name:"Tuna (Sura)",     desc:"Bold, meaty tuna. Perfect for traditional Andhra-style dry fry and spicy curries.",                  price:"From Rs. 280 per kg", image:"https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=600&q=80" },
+  { id:5, name:"Dry Fish",        desc:"Sun-dried coastal fish — a traditional Andhra delicacy. Deep flavor, premium quality.",               price:"From Rs. 250 per kg", image:"https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80" },
 ];
 
 export default function FreshCatch() {
