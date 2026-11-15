@@ -40,13 +40,13 @@ export default function HeroSection() {
         <div className="hero-eyebrow" ref={eyebrowRef}>Premium Fresh Seafood Delivery</div>
 
         <h1 className="hero-title" ref={titleRef}>
-          PJ Seafoods
+          Rudhra Sea Foods
           <span className="highlight">Fresh From The</span>
-          <span style={{ color: "#ADE8F4" }}>Waves To Your Home</span>
+          <span style={{ color: "#A8D8EA" }}>Waves To Your Home</span>
         </h1>
 
         <p className="hero-slogan" ref={sloganRef}>
-          A people&apos;s journey of fresh flavor — connecting traditional fishing
+          Experience the fire! Spicy homemade-cooked seafood — connecting traditional fishing
           communities with your dining table across India.
         </p>
 

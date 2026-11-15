@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import LoadingScreen from './components/LoadingScreen';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import BrandBanner from './components/BrandBanner';
 import FreshCatch from './components/FreshCatch';
 import TunaSection from './components/TunaSection';
 import PongalSpecials from './components/PongalSpecials';
@@ -57,6 +58,7 @@ export default function App() {
         <Header />
         <main>
           <HeroSection />
+          <BrandBanner />
           <FreshCatch />
           <TunaSection />
           <PongalSpecials />

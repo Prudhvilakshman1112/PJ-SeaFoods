@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
+import logoImg from "../assets/rudhra-logo.jpg";
 
 const navLinks = [
   { label: "Home",             href: "#home" },
+  { label: "Our Brand",        href: "#brand" },
   { label: "Fresh Catch",      href: "#fresh-catch" },
   { label: "Tuna Special",     href: "#tuna" },
   { label: "Harvest Specials", href: "#pongal" },
@@ -45,10 +47,10 @@ export default function Header() {
 
         <div className="header-inner">
           <a className="logo-wrap" href="#home" onClick={(e) => { e.preventDefault(); go("#home"); }}>
-            <div className="logo-icon">&#9875;</div>
+            <div className="logo-icon"><img src={logoImg} alt="Rudhra Sea Foods logo" /></div>
             <div className="logo-text-wrap">
-              <div className="logo-name">PJ Seafoods</div>
-              <div className="logo-tagline">A People&apos;s Journey of Fresh Flavor</div>
+              <div className="logo-name">Rudhra Sea Foods</div>
+              <div className="logo-tagline">Seafood That Makes Your Taste Divine!</div>
             </div>
           </a>
 
@@ -86,7 +88,7 @@ export default function Header() {
             <button className="mobile-menu-close" onClick={() => setMenuOpen(false)} aria-label="Close menu">
               ✕
             </button>
-            <div className="mobile-menu-logo">🐟 PJ Seafoods</div>
+            <div className="mobile-menu-logo">🔱 Rudhra Sea Foods</div>
             <nav className="mobile-nav">
               {navLinks.map((link) => (
                 <a
@@ -102,8 +104,6 @@ export default function Header() {
             <div className="mobile-menu-footer">
               <a href="tel:9985476544" className="mobile-contact-chip">📞 9985476544</a>
               <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="mobile-contact-chip whatsapp">💬 WhatsApp</a>
-              <a href="https://instagram.com/pj_sea_foods" target="_blank" rel="noreferrer" className="mobile-contact-chip">📸 @pj_sea_foods</a>
-              <a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer" className="mobile-contact-chip">📸 @sailor_man_67</a>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ export default function ContactSection() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const msg = encodeURIComponent("Hello PJ Seafoods!\nName: " + form.name + "\nPhone: " + form.phone + "\nInquiry: " + (form.inquiry || "General") + "\nTime: " + (form.time || "Any"));
+    const msg = encodeURIComponent("Hello Rudhra Sea Foods!\nName: " + form.name + "\nPhone: " + form.phone + "\nInquiry: " + (form.inquiry || "General") + "\nTime: " + (form.time || "Any"));
     window.open("https://wa.me/919985476544?text=" + msg, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 4000);
@@ -86,17 +86,11 @@ export default function ContactSection() {
               <a href="tel:9985476544" className="contact-phone-cta">
                 <div className="phone-cta-icon">&#128222;</div>
                 <div className="phone-cta-text">
-                  <div className="cta-label">Direct Order — Ask for Sailor Man</div>
+                  <div className="cta-label">Direct Order</div>
                   <div className="cta-number">9985476544</div>
                 </div>
               </a>
               <div className="social-links">
-                <a href="https://instagram.com/pj_sea_foods" target="_blank" rel="noreferrer" className="social-link instagram">
-                  <span>&#128247;</span><span>@pj_sea_foods</span>
-                </a>
-                <a href="https://instagram.com/sailor_man_67" target="_blank" rel="noreferrer" className="social-link instagram">
-                  <span>&#128247;</span><span>@sailor_man_67</span>
-                </a>
                 <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="social-link whatsapp">
                   <span>&#128172;</span><span>WhatsApp Us</span>
                 </a>

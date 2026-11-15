@@ -96,7 +96,7 @@ export default function TunaSection() {
           <h2 className="section-title tuna-title">The Mighty Tuna</h2>
           <div className="tuna-divider" />
           <p className="section-subtitle tuna-subtitle">
-            PJ Seafoods is your most trusted, freshest provider of premium Tuna — straight from the Bay of Bengal
+            Rudhra Sea Foods is your most trusted, freshest provider of premium Tuna — straight from the Bay of Bengal
           </p>
         </div>
 
@@ -115,12 +115,12 @@ export default function TunaSection() {
             </div>
           </div>
           <div className="tuna-hero-text">
-            <div className="tuna-provider-tag">Why PJ Seafoods for Tuna?</div>
+            <div className="tuna-provider-tag">Why Rudhra Sea Foods for Tuna?</div>
             <h3 className="tuna-hero-heading">
               Your Trusted Tuna Provider — <span>Farm to Table Freshness</span>
             </h3>
             <p className="tuna-hero-desc">
-              At PJ Seafoods, tuna is more than just a fish — it's our passion and pride. We work directly with experienced Andhra fishermen who hand-select the finest tuna from the deep waters of the Bay of Bengal every single day.
+              At Rudhra Sea Foods, tuna is more than just a fish — it's our passion and pride. We work directly with experienced Andhra fishermen who hand-select the finest tuna from the deep waters of the Bay of Bengal every single day.
             </p>
             <p className="tuna-hero-desc">
               Our tuna reaches you within <strong>hours of catch</strong> — never frozen, never compromised. Whether you need it for a traditional Andhra dry fry, a spicy masala curry, or a healthy grilled meal, our tuna delivers unmatched flavor and nutrition.
@@ -140,7 +140,7 @@ export default function TunaSection() {
               </div>
             </div>
             <a
-              href="https://wa.me/919985476544?text=Hi PJ Seafoods, I would like to order: Fresh Premium Tuna"
+              href="https://wa.me/919985476544?text=Hi Rudhra Sea Foods, I would like to order: Fresh Premium Tuna"
               target="_blank"
               rel="noreferrer"
               className="btn-tuna"
@@ -172,7 +172,7 @@ export default function TunaSection() {
             <div className="tuna-cta-sub">Call or WhatsApp us — we deliver tuna fresh to your doorstep daily.</div>
           </div>
           <div className="tuna-cta-actions">
-            <a href="https://wa.me/919985476544?text=Hi PJ Seafoods, I would like to order: Fresh Premium Tuna" target="_blank" rel="noreferrer" className="btn-tuna">
+            <a href="https://wa.me/919985476544?text=Hi Rudhra Sea Foods, I would like to order: Fresh Premium Tuna" target="_blank" rel="noreferrer" className="btn-tuna">
               📲 WhatsApp Order
             </a>
             <a href="tel:9985476544" className="btn-tuna-outline">

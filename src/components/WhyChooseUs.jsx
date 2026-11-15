@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
           </div>
           <div className="why-content" ref={contentRef}>
             <div>
-              <h2 className="section-title">Why Choose PJ Seafoods?</h2>
+              <h2 className="section-title">Why Choose Rudhra Sea Foods?</h2>
               <div className="gold-divider" />
               <p className="section-subtitle">Where the ocean meets your table — with tradition, trust, and taste.</p>
             </div>

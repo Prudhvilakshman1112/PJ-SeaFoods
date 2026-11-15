@@ -43,7 +43,7 @@ export default function HarvestSpecials() {
     <section id="pongal" className="pongal-specials" ref={sectionRef}>
       <div className="container">
         <div className="section-header" ref={headerRef}>
-          <h2 className="section-title">June Fresh Harvest Specials</h2>
+          <h2 className="section-title">November Fresh Harvest Specials</h2>
           <div className="gold-divider" />
           <p className="section-subtitle">Seasonal bundles of the finest catch — freshness guaranteed, delivered to your door</p>
         </div>
@@ -56,14 +56,14 @@ export default function HarvestSpecials() {
             </div>
             <span className="combo-icon">{WAVE}</span>
             <div className="combo-name">Ocean Harvest Bundle</div>
-            <div className="combo-desc">A curated summer mix for the whole family — sourced fresh from Bay of Bengal shores this June.</div>
+            <div className="combo-desc">A curated seasonal mix for the whole family — sourced fresh from Bay of Bengal shores this November.</div>
             <ul className="combo-items">
               <li className="combo-item-tag"><span>{TROPI}</span><span>Pomfret 500g</span></li>
               <li className="combo-item-tag"><span>{SHRIMP}</span><span>Prawns 500g</span></li>
               <li className="combo-item-tag"><span>{TROPI}</span><span>Dry Fish 250g</span></li>
               <li className="combo-item-tag"><span>{FISH}</span><span>Tuna 500g</span></li>
             </ul>
-            <a href="https://wa.me/919985476544?text=Hi PJ Seafoods, I would like to order the Ocean Harvest Bundle" target="_blank" rel="noreferrer" className="btn-gold" style={{display:"flex",justifyContent:"center"}}>
+            <a href="https://wa.me/919985476544?text=Hi Rudhra Sea Foods, I would like to order the Ocean Harvest Bundle" target="_blank" rel="noreferrer" className="btn-gold" style={{display:"flex",justifyContent:"center"}}>
               <span>Order This Bundle</span>
             </a>
           </div>

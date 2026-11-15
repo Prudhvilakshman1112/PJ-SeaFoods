@@ -81,7 +81,7 @@ export default function LoadingScreen({ onComplete }) {
         className="loading-anchor"
         style={{ opacity: 0, transform: 'translateY(-20px)' }}
       >
-        &#9875;
+        &#128305;
       </div>
 
       <h1
@@ -89,7 +89,7 @@ export default function LoadingScreen({ onComplete }) {
         className="loading-logo-text"
         style={{ opacity: 0, transform: 'translateY(-60px)' }}
       >
-        PJ SEAFOODS
+        RUDHRA SEA FOODS
       </h1>
 
       <p
@@ -97,7 +97,7 @@ export default function LoadingScreen({ onComplete }) {
         className="loading-slogan"
         style={{ width: 0 }}
       >
-        Fresh From The Waves To Your Home
+        Seafood That Makes Your Taste Divine!
       </p>
 
       <div className="loading-progress">
