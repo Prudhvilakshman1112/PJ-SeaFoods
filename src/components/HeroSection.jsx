@@ -58,8 +58,8 @@ export default function HeroSection() {
           <a href="#fresh-catch" className="btn-primary" onClick={(e) => { e.preventDefault(); document.querySelector('#fresh-catch')?.scrollIntoView({behavior:'smooth'}); }}>
             <span>Shop Fresh Catch</span>
           </a>
-          <a href="tel:9985476544" className="btn-gold">
-            <span>&#128222; Order Now: 9985476544</span>
+          <a href="tel:6301081921" className="btn-gold">
+            <span>&#128222; Order Now: 63010 81921</span>
           </a>
         </div>
       </div>

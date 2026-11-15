@@ -27,8 +27,8 @@ export default function Footer() {
           <div>
             <div className="footer-col-title">Contact</div>
             <ul className="footer-links">
-              <li><a href="tel:9985476544">&#128222; 9985476544</a></li>
-              <li><a href="https://wa.me/919985476544" target="_blank" rel="noreferrer">&#128172; WhatsApp Us</a></li>
+              <li><a href="tel:6301081921">&#128222; 63010 81921</a></li>
+              <li><a href="https://wa.me/916301081921" target="_blank" rel="noreferrer">&#128172; WhatsApp Us</a></li>
               <li style={{ color:"#A8D8EA", fontSize:"0.8rem" }}>&#128336; We are open 24 hrs</li>
             </ul>
             <div style={{ marginTop:"1.2rem", padding:"0.75rem 1rem", background:"rgba(13,79,139,0.15)", border:"1px solid rgba(13,79,139,0.35)", borderRadius:"10px", fontSize:"0.76rem", color:"#A8D8EA", lineHeight:1.6 }}>

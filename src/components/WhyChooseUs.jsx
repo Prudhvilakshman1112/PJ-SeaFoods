@@ -50,8 +50,8 @@ export default function WhyChooseUs() {
               ))}
             </div>
             <div style={{ marginTop: "2rem", display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-              <a href="tel:9985476544" className="btn-primary"><span>Call: 9985476544</span></a>
-              <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="btn-gold"><span>WhatsApp Order</span></a>
+              <a href="tel:6301081921" className="btn-primary"><span>Call: 63010 81921</span></a>
+              <a href="https://wa.me/916301081921" target="_blank" rel="noreferrer" className="btn-gold"><span>WhatsApp Order</span></a>
             </div>
           </div>
         </div>

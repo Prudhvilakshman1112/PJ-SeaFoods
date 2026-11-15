@@ -31,11 +31,11 @@ export default function ProductCard({ name, desc, price, image, emoji }) {
         <div className="card-name">{name}</div>
         <div className="card-desc">{desc}</div>
         <div className="card-actions">
-          <a href={`https://wa.me/919985476544?text=Hi Rudhra Sea Foods, I would like to order: ${encodeURIComponent(name)}`} target="_blank" rel="noreferrer" className="btn-order">
+          <a href={`https://wa.me/916301081921?text=Hi Rudhra Sea Foods, I would like to order: ${encodeURIComponent(name)}`} target="_blank" rel="noreferrer" className="btn-order">
             <span>Order Now</span>
           </a>
-          <a href="tel:9985476544" className="btn-call">
-            <span>&#128222; Call: 9985476544</span>
+          <a href="tel:6301081921" className="btn-call">
+            <span>&#128222; Call: 63010 81921</span>
           </a>
         </div>
       </div>

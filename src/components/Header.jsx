@@ -102,8 +102,8 @@ export default function Header() {
               ))}
             </nav>
             <div className="mobile-menu-footer">
-              <a href="tel:9985476544" className="mobile-contact-chip">📞 9985476544</a>
-              <a href="https://wa.me/919985476544" target="_blank" rel="noreferrer" className="mobile-contact-chip whatsapp">💬 WhatsApp</a>
+              <a href="tel:6301081921" className="mobile-contact-chip">📞 63010 81921</a>
+              <a href="https://wa.me/916301081921" target="_blank" rel="noreferrer" className="mobile-contact-chip whatsapp">💬 WhatsApp</a>
             </div>
           </div>
         </div>

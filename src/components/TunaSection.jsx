@@ -140,7 +140,7 @@ export default function TunaSection() {
               </div>
             </div>
             <a
-              href="https://wa.me/919985476544?text=Hi Rudhra Sea Foods, I would like to order: Fresh Premium Tuna"
+              href="https://wa.me/916301081921?text=Hi Rudhra Sea Foods, I would like to order: Fresh Premium Tuna"
               target="_blank"
               rel="noreferrer"
               className="btn-tuna"
@@ -172,11 +172,11 @@ export default function TunaSection() {
             <div className="tuna-cta-sub">Call or WhatsApp us — we deliver tuna fresh to your doorstep daily.</div>
           </div>
           <div className="tuna-cta-actions">
-            <a href="https://wa.me/919985476544?text=Hi Rudhra Sea Foods, I would like to order: Fresh Premium Tuna" target="_blank" rel="noreferrer" className="btn-tuna">
+            <a href="https://wa.me/916301081921?text=Hi Rudhra Sea Foods, I would like to order: Fresh Premium Tuna" target="_blank" rel="noreferrer" className="btn-tuna">
               📲 WhatsApp Order
             </a>
-            <a href="tel:9985476544" className="btn-tuna-outline">
-              📞 9985476544
+            <a href="tel:6301081921" className="btn-tuna-outline">
+              📞 63010 81921
             </a>
           </div>
         </div>
